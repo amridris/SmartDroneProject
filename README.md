@@ -12,7 +12,7 @@ Bibek Shrestha
 
 
 
-Software Build Instructions
+**Software Build Instructions
 
 The software supports all of the major operating system Windows, MacOs, Linux, Android, and iOS. QGC uses Qt as a cross platform libraries as well as compiling using Qt creator build environment. 
 
@@ -28,7 +28,7 @@ Once the appropriate compiler is chosen run the build command in Qt to compile a
 
 
 
-Notes:
+**Notes:
 
 Ubuntu Linux: may need to run the following command to avoid compilation error
 
