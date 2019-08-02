@@ -302,12 +302,12 @@ SetupPage {
                 } // QGCGroupBox - Hardware Settings
 
                 QGCGroupBox {
-                    title:              qsTr("Camera Test")
+                    title:              qsTr("Pesticide Sprayer Test")
                     Layout.fillWidth:   true
 
                     QGCButton {
                         anchors.horizontalCenter:   parent.horizontalCenter
-                        text:                       qsTr("Trigger Camera")
+                        text:                       qsTr("Trigger Sprayer")
                         onClicked:                  controller.vehicle.triggerCamera()
                     }
                 }

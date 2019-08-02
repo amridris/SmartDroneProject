@@ -3,7 +3,7 @@
     "name":             "CameraAction",
     "shortDescription": "Specify whether the camera should take photos or video",
     "type":             "uint32",
-    "enumStrings":      "No change,Take photo,Take photos (time),Take photos (distance),Stop taking photos,Start recording video,Stop recording video",
+    "enumStrings":      "No change,Spray pesticide,Spray Pesticide (time),Spray Pesticide (distance),Stop Spraying Pesticide,unused,unused 2",
     "enumValues":       "0,6,1,2,3,4,5",
     "defaultValue":     0
 },
@@ -51,7 +51,7 @@
     "name":             "CameraMode",
     "shortDescription": "Specify whether the camera should switch to Photo, Video or Survey mode",
     "type":             "uint32",
-    "enumStrings":      "Photo,Video,Survey",
+    "enumStrings":      "Spray,unused,unused1",
     "enumValues":       "0,1,2",
     "defaultValue":     0
 }

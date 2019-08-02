@@ -1,25 +1,50 @@
-# QGroundControl Ground Control Station
+﻿
+This Github repositry is dedicated for the Smart Agriculture Drone project which contains the source code of the Ground control station. The team decide to use the QgroundControl open source software to implement the drone autonomous features as well as controlling the drone. The team has tweaked the software GUI to reflect the agriculture features worked on by the team. 
 
-[![Releases](https://img.shields.io/github/release/mavlink/QGroundControl.svg)](https://github.com/mavlink/QGroundControl/releases)
-[![Travis Build Status](https://travis-ci.org/mavlink/qgroundcontrol.svg?branch=master)](https://travis-ci.org/mavlink/qgroundcontrol)
-[![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/crxcm4qayejuvh6c/branch/master?svg=true)](https://ci.appveyor.com/project/mavlink/qgroundcontrol)
+Project Advisor:
+Dr Jerry Gao 
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mavlink/qgroundcontrol?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-
-*QGroundControl* (QGC) is an intuitive and powerful ground control station (GCS) for UAVs.
-
-The primary goal of QGC is ease of use for both first time and professional users. 
-It provides full flight control and mission planning for any MAVLink enabled drone, and vehicle setup for both PX4 and ArduPilot powered UAVs. Instructions for *using QGroundControl* are provided in the [User Manual](https://docs.qgroundcontrol.com/en/) (you may not need them because the UI is very intuitive!)
-
-All the code is open-source, so you can contribute and evolve it as you want. 
-The [Developer Guide](https://dev.qgroundcontrol.com/en/) explains how to [build](https://dev.qgroundcontrol.com/en/getting_started/) and extend QGC.
+Project Members: 
+Aamer Idris
+Jacob Jones
+Brandon Nguyen
+Bibek Shrestha
 
 
-Key Links: 
-* [Website](http://qgroundcontrol.com) (qgroundcontrol.com)
-* [User Manual](https://docs.qgroundcontrol.com/en/)
-* [Developer Guide](https://dev.qgroundcontrol.com/en/)
-* [Discussion/Support](https://docs.qgroundcontrol.com/en/Support/Support.html)
-* [Contributing](https://dev.qgroundcontrol.com/en/contribute/)
-* [License](https://github.com/mavlink/qgroundcontrol/blob/master/COPYING.md)
+
+Software Build Instructions
+
+The software supports all of the major operating system Windows, MacOs, Linux, Android, and iOS. QGC uses Qt as a cross platform libraries as well as compiling using Qt creator build environment. 
+
+After installing Qt, run the Qt creator and choose the appropriate supported compiler to build the source depending on the running operating system:
+
+OSX: Desktop Qt 5.11.3 clang 64 bit
+Ubuntu: Desktop Qt 5.11.3 GCC 64 bit*
+Windows: Desktop Qt 5.11.3 MSVC 2015 32 bit*
+Android: Android armeabi-v7a (GCC 4.9, Qt 5.11.3)
+
+Once the appropriate compiler is chosen run the build command in Qt to compile and run the program.
+
+
+
+
+Notes:
+
+Ubuntu Linux: may need to run the following command to avoid compilation error
+
+sudo apt-get install speech-dispatcher libudev-dev libsdl2-dev
+
+Windows: USB Drivers to connect to pixhawk Radio (http://pixhawk.org/firmware/downloads)
+
+Android: Install Qt Android 
+
+
+
+Credits
+This application uses Open Source components. You can find the source code of their open source projects along with license information below. We acknowledge and are grateful to these developers for their contributions to open source.
+
+Project: 
+
+Mavlink/QGroundControl (https://github.com/mavlink/qgroundcontrol)
+Apache 2.0 License
+GPL v3 License

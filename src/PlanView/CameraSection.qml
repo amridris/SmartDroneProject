@@ -24,7 +24,7 @@ Column {
 
     SectionHeader {
         id:             cameraSectionHeader
-        text:           qsTr("Camera")
+        text:           qsTr("Pesticide Sprayer")
         checked:        false
     }
 

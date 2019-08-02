@@ -72,7 +72,7 @@ Column {
 
     SectionHeader {
         id:         cameraHeader
-        text:       qsTr("Camera")
+        text:       qsTr("Pesticide Sprayer")
         showSpacer: false
     }
 

@@ -56,7 +56,7 @@ Column {
     //-- Dumb camera trigger if no actual camera interface exists
     QGCButton {
         anchors.horizontalCenter:   parent.horizontalCenter
-        text:                       qsTr("Trigger Camera")
+        text:                       qsTr("Trigger Pesticide Sprayer")
         visible:                    !_camera
         onClicked:                  activeVehicle.triggerCamera()
         enabled:                    activeVehicle
@@ -65,7 +65,7 @@ Column {
     //-- Actual controller
     QGCLabel {
         id:             cameraLabel
-        text:           _camera ? _camera.modelName : qsTr("Camera")
+        text:           _camera ? _camera.modelName : qsTr("Pesticide Sprayer")
         visible:        _camera
         font.pointSize: ScreenTools.smallFontPointSize
         anchors.horizontalCenter: parent.horizontalCenter
@@ -349,7 +349,7 @@ Column {
                         visible:        _cameraPhotoMode
                         property var photoModes: [qsTr("Single"), qsTr("Time Lapse")]
                         QGCLabel {
-                            text:       qsTr("Photo Mode")
+                            text:       qsTr("Spray Mode")
                             width:      _labelFieldWidth
                             anchors.verticalCenter: parent.verticalCenter
                         }
@@ -368,7 +368,7 @@ Column {
                         anchors.horizontalCenter: parent.horizontalCenter
                         visible:        _cameraPhotoMode && _camera.photoMode === QGCCameraControl.PHOTO_CAPTURE_TIMELAPSE
                         QGCLabel {
-                            text:       qsTr("Photo Interval (seconds)")
+                            text:       qsTr("Spray Interval (seconds)")
                             width:      _labelFieldWidth
                             anchors.verticalCenter: parent.verticalCenter
                         }
@@ -438,7 +438,7 @@ Column {
                         spacing:                ScreenTools.defaultFontPixelWidth
                         anchors.horizontalCenter: parent.horizontalCenter
                         QGCLabel {
-                            text:       qsTr("Reset Camera Defaults")
+                            text:       qsTr("Reset Pesticide Sprayer Defaults")
                             width:      _labelFieldWidth
                             anchors.verticalCenter: parent.verticalCenter
                         }
