@@ -32,13 +32,13 @@ Once the appropriate compiler is chosen run the build command in Qt to compile a
 
 ## Notes:
 
-Ubuntu Linux: may need to run the following command to avoid compilation error
+Ubuntu Linux: may need to run the following command to avoid compilation error  
 
-sudo apt-get install speech-dispatcher libudev-dev libsdl2-dev
+**sudo apt-get install speech-dispatcher libudev-dev libsdl2-dev**
 
-Windows: USB Drivers to connect to pixhawk Radio (http://pixhawk.org/firmware/downloads)
+Windows: USB Drivers to connect to pixhawk Radio (http://pixhawk.org/firmware/downloads)  
 
-Android: Install Qt Android 
+Android: Install Qt Android  
 
 
 
