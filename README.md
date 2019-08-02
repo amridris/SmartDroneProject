@@ -1,5 +1,5 @@
 ﻿
-# Smart Drone Project (SJSU)
+# Smart Farming Drone Project (SJSU)
 
 This Github repositry is dedicated for the Smart Agriculture Drone project which contains the source code of the Ground control station. The team decide to use the QgroundControl open source software to implement the drone autonomous features as well as controlling the drone. The team has tweaked the software GUI to reflect the agriculture features worked on by the team. 
 
